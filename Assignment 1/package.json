@@ -1,0 +1,11 @@
+{
+  "name": "traindrops",
+  "version": "1.0.0",
+  "description": "A soothing colourful visualisation of rainy trains",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bavo Maes",
+  "license": "ISC"
+}
