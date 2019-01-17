@@ -4,11 +4,14 @@
   "description": "A soothing colourful visualisation of rainy trains",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Bavo Maes",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {}
 }
