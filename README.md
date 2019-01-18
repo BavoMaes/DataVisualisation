@@ -21,4 +21,4 @@ To run the visualisation, go the correct folder en run `node server.js`
 
 This visualisation is a poster made in NodeBox 3, showing the correlention between exam results of students and the educational level of their parents.   
 
-![Exam Results & Parental Education](https://loggrblog.files.wordpress.com/2019/01/exams_viz.jpg)
+![Exam Results & Parental Education](https://loggrblog.files.wordpress.com/2019/01/exams_viz.jpg?w=600)
