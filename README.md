@@ -5,7 +5,7 @@ Each assignment is located in a seperate folder.
 
 # Traindrops (Assignment 1)
 
-**Exploraroty / Linear**
+**Exploratory / Linear**
 
 Traindrops visualises the train departures at Brussels South station in railtime using droplets.   
 
