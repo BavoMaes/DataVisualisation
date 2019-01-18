@@ -6,4 +6,4 @@ Each assignment is located in a seperate folder.
 # Traindrops
 
 Traindrops visualises the train departures at Brussels South station in railtime using droplets.
-![Traindrops visualisation](/assets/img/traindrops.jpg "Traindrops")
+![Traindrops visualisation](https://loggrblog.files.wordpress.com/2019/01/traindrops.png "Traindrops")
