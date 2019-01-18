@@ -1,20 +1,24 @@
 let data;
-// let currentTime = Math.round((new Date()).getTime() / 1000);
-let currentTime = 1547711940;
+let currentTime = Math.round((new Date()).getTime() / 1000);
 console.log('Current time: ', currentTime);
 
 let xhttp = new XMLHttpRequest();
 xhttp.open('GET', '/data');
 xhttp.onload = function () {
     data = removeDelayed(JSON.parse(this.response));
-    let myp5 = new p5(s);
     console.log(data);
+    if (data.length != 0) {
+        let myp5 = new p5(s);
+    } else {
+        alert("Geen treinen teruggevonden. Kijk alstublieft uw internetconnectie na en probeer nog eens tussen 8u 's ochtends en 22u 's avonds");
+    }
+    
 }
 xhttp.send();
 
 function removeDelayed(data) {
     for (let i = data.length - 1; i > 0; i--) {
-        if (data[i].time < currentTime - 60 || data[i].platform == '?') {
+        if (data[i].time < currentTime || data[i].platform == '?') {
             data.splice(i,1);
         }
     }
@@ -37,7 +41,7 @@ let s = function(sketch) {
         //Initialize environment variables
         gravity = 0.45;
         width = 1200;
-        height = 600;
+        height = 650;
         amount = 21;
         vialWidth = width / amount - 10;
         vialHeight = 40;
@@ -63,8 +67,7 @@ let s = function(sketch) {
             trains.push(train);
         }
 
-        // currentTime = Math.round((new Date()).getTime() / 1000);
-        currentTime = 1547711940;
+        currentTime = Math.round((new Date()).getTime() / 1000);
     }
 
     sketch.draw = function() {
