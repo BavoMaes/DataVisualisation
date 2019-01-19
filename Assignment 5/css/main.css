@@ -1,0 +1,66 @@
+body {
+    background-color: #1a1a1a;
+    text-align: center;
+    color: #fff;
+}
+
+nav {
+    background-color: #000;
+    box-shadow: 0 37.125px 70px -12.125px rgba(0,0,0,0.3);
+    text-align: left;
+}
+
+nav img {
+    width: 40px;
+    margin: 15px 0 10px 50px;
+}
+
+form {
+    margin-top: 25px;
+}
+
+form label {
+    color: #00ff00;
+}
+
+form select {
+    border: 1px solid #00ff00;
+    background-color: transparent;
+    color: #00ff00;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+form button {
+    border: 1px solid #00ff00;
+    background-color: transparent;
+    color: #00ff00;
+    outline: none;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+#sankey {
+    margin-top: 50px;
+    padding-right: 65px;
+}
+
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+}
+
+.link {
+  fill: none;
+  stroke: #00ff00;
+  stroke-opacity: .1;
+}
+
+.link:hover {
+  stroke-opacity: .3;
+}
