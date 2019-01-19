@@ -1,0 +1,39 @@
+body {
+    background-color: #000;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+canvas {
+    margin: 0 auto;
+    display: block;
+}
+
+.palette {
+    width: 20px;
+    height: 20px;
+    display: block;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+#palette p {
+    color: #fff;
+    display: inline;
+    margin: 0;
+    padding: 0 0 0 2px;
+}
+
+#palette li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+#palette ul {
+    width: 450px;
+    margin: 0 auto 50px auto;
+}
