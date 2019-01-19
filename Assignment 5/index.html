@@ -13,20 +13,29 @@
         <nav>
             <img src="img/logo.png">
         </nav>
-        <form>
+        <form action="/new" method="post">
             <label>I study</label>
-            <select>
-                <option>Multec</option>
-                <option>Dig-X</option>
+            <select name="degree">
+                <option value="Multec">Multec</option>
+                <option value="Dig-X">Dig-X</option>
             </select><br>
             <label>I didn't go to</label>
-            <select>
-                <option>Information Design</option>
-                <option>Creative Programming III</option>
+            <select name="course" id="course">
+                <option value="Information Design">Information Design</option>
+                <option value="Creative Programming I">Creative Programming I</option>
+                <option value="Creative Programming II">Creative Programming II</option>
+                <option value="Creative Programming III">Creative Programming III</option>
+                <option value="Project Management">Project Management</option>
+                <option value="Web Advanced">Web Advanced</option>
+                <option value="Business French">Business French</option>
+                <option value="Static Web Dev">Static Web Dev</option>
+                <option value="Data Visualisation">Data Visualisation</option>
             </select><br>
+            <input hidden type="text" value="Els Vande Kerckhove" id="teacher" name="teacher"></select>
             <button type="submit">Submit</button>
         </form>
         <div id="sankey"></div>
         <script src="visualisation.js"></script>
+        <script src="courses.js"></script>
     </body>
 </html>
