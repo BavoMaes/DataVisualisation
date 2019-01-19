@@ -19,7 +19,7 @@ To run the visualisation, go the correct folder en run `node server.js`
 
 **Explanatory / 3D / (semi) Interactive**
 
-This applications generates a color palette consisting of 8 colors from an image the image can be set in the code).
+This applications generates a color palette consisting of 8 colors from an image (the image can be set in the code).
 
 ![Color Palette Generator](https://loggrblog.files.wordpress.com/2019/01/screen-shot-2019-01-19-at-5.39.23-pm.png?w=450)
 
@@ -40,3 +40,12 @@ This is a physical visualisation using a sound sensor, an LED strip and an Ardui
 ![LED Strip](https://loggrblog.files.wordpress.com/2019/01/ledstrip.jpg?w=600)
 
 A video demo can be found on [here on Youtube](https://youtu.be/EEXL9K6bN_0).
+
+# SkipEhB (Assignment 5)
+
+**Explanatory / Interactive / D3.js**
+
+SkipEhB is an application where students from the Dig-X or Multec courses at EhB can indicate when they did not go to class. The results are visualized in a Sankey diagram using D3.js
+
+![SkipEhB](https://loggrblog.files.wordpress.com/2019/01/skipehb.png?w=600)
+
