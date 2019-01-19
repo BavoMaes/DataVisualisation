@@ -15,7 +15,7 @@ A video demo can be found [here on Youtube](https://youtu.be/nHyrRg0q7kE).
 
 To run the visualisation, go the correct folder en run `node server.js`
 
-#Color Palette Generator (Assignment 2)
+# Color Palette Generator (Assignment 2)
 
 **Explanatory / 3D / (semi) Interactive**
 
